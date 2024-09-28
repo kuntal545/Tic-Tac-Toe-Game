@@ -58,6 +58,7 @@ const checkWin = () => {
             isgameover = true;
             music.pause(); // Stop the background music
             drawSound.play(); // Play draw sound
+            document.getElementById('drawGif').style.width = "200px";
         }
     }
 }
@@ -90,6 +91,7 @@ reset.addEventListener('click', () => {
     isgameover = false;
     document.getElementsByClassName("info")[0].innerText = "Turn for " + turn;
     document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width = "0px";
+    document.getElementById('drawGif').style.width = "0px";
     music.pause();
     music.currentTime = 0;  // Reset background music
 
