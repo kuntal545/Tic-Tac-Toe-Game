@@ -62,8 +62,9 @@ nav ul li {
 .in{
   display: flex;
   margin-top: 30px;
-  
-  
+  }
+span.info{
+  margin-left: 10px;
 }
 .container{
 display: grid;
