@@ -52,7 +52,6 @@ nav ul li {
 }
 
 .gameContainer{
-   background-color: ;
    display: flex;
    margin-top: 50px;
    justify-content: center;
@@ -106,13 +105,7 @@ font-size: 1rem;
    color: rgb(255, 0, 0);
  
 }
-.info{
-  
-    font-family: "roboto", sans-sarif;
-    font-weight: 400;
-    font-style: normal;
-   font-size: 2rem;
-}
+
 #reset {
    align-items: center;
    appearance: none;
@@ -243,11 +236,6 @@ font-size: 1rem;
 #aiMode:hover {
   background-color: #ff7426;
 }
-
-
-
-
-
 @media screen and (max-width: 950px)
 {
     .gameContainer{
