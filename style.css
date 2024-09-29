@@ -219,6 +219,23 @@ font-size: 1rem;
    cursor: default;
    opacity: .24;
  }
+ /*new button*/
+
+#aiMode {
+  background-color: #d63638;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#aiMode:hover {
+  background-color: #ff7426;
+}
 
 
 
